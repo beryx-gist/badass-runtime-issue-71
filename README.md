@@ -1,6 +1,6 @@
 ## Badass Runtime Plugin - [issue 71](https://github.com/beryx/badass-runtime-plugin/issues/71#issuecomment-707833927) ##
 
-This 'Hello world' project shows how to change the value of the `Culture` parameter of light.exe, as described in [JDK-8232621](https://github.com/beryx/badass-runtime-plugin/issues/71#issuecomment-707833927).
+This 'Hello world' project shows how to change the value of the `Culture` parameter of light.exe, as discussed in the issue [JDK-8232621](https://bugs.openjdk.java.net/browse/JDK-8232621?focusedCommentId=14361347&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-14361347).
 
 The application is built using Gradle 6.7, which doesn't support Java 16.
 However, you need a recent Java 16 version of jpackage.
