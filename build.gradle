@@ -13,8 +13,6 @@ def defaultEncoding = 'UTF-8'
 [compileJava, compileTestJava]*.options*.encoding = defaultEncoding
 
 
-mainClassName = 'org.beryx.hello/org.beryx.hello.Hello'
-
 application {
     mainClass = 'org.beryx.hello.Hello'
     applicationName = 'hello'
