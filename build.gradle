@@ -28,11 +28,7 @@ jar {
 }
 
 runtime {
-    modules = ['java.naming', 'java.xml']
     options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
-    launcher {
-        noConsole = false
-    }
     jpackage {
         // The environment variable BADASS_RUNTIME_JPACKAGE_HOME should point to a Java 16 installation.
         installerOptions += ['--resource-dir', "src/main/resources"]
